@@ -1,0 +1,92 @@
+.todo{
+    background-color: whitesmoke;
+    width: 30%;
+    min-height: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 5px gray;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+#task{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color:whitesmoke;
+    border-bottom: 2px solid gray;
+    font-size: 24px;
+    text-align: center;
+}
+
+#task:focus{
+    outline: none;
+    border-bottom: 2px solid darkgrey;
+}
+
+button{
+    width: 85px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #8E44AD;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+li{
+    margin-top: 5px;
+    background-color: #EAECEE;
+    margin-left: -30px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    display:flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+    
+}
+
+button:hover{
+    background-color: #7D3C98;
+}
+.btn{
+    width: 54px;
+    padding: auto;
+    
+}
+
+
+@media (max-width:768px) {
+    .todo{
+        width: 80%;
+    } 
+    
+}
+
+@media (min-width:769px) {
+    .todo{
+        width: 50%;
+    } 
+    
+}
+
+@media (min-width:1002px) {
+    .todo{
+        width: 30%;
+    } 
+    
+}
